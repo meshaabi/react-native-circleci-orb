@@ -23,7 +23,7 @@ jobs:
     docker:
       - image: circleci/node:12
     environment:
-      - PATH: '~/bin:/opt/yarn/yarn-v1.5.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+      - PATH: "~/bin:/opt/yarn/yarn-v1.5.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
     steps:
       - attach_workspace:
           at: .
@@ -37,7 +37,7 @@ jobs:
           key: yarn-cache-{{ arch }}-{{ checksum "package.json" }}-{{ checksum "yarn.lock" }}-{{ .Environment.CACHE_VERSION }}
       - run:
           name: Yarn Install
-          command: yarn install --non-interactive --cache-folder /tmp/yarn
+          command: yarn install --cache-folder /tmp/yarn
       - save_cache:
           paths:
             - /tmp/yarn
