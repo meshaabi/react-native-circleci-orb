@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/meshaabi/react-native-circleci-orb"
+    "url": "git@github.com:meshaabi/react-native-circleci-orb.git"
   },
   "author": "Matt Oakes <hello@mattoakes.net>",
   "license": "MIT",
