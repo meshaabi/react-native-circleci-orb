@@ -1,3 +1,10 @@
+## [5.5.1](https://github.com/meshaabi/react-native-circleci-orb/compare/v5.5.0...v5.5.1) (2021-09-11)
+
+
+### Bug Fixes
+
+* semantic-release ([6aad743](https://github.com/meshaabi/react-native-circleci-orb/commit/6aad743))
+
 # [5.5.0](https://github.com/react-native-community/react-native-circleci-orb/compare/v5.4.0...v5.5.0) (2021-07-28)
 
 
